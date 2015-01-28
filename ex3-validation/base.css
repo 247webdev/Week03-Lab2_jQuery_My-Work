@@ -1,16 +1,26 @@
 body {
 	background-color: 030303;
 	color: black;
+	font-family: sans-serif;
 }
-table {
+#container {
+	width: 50%;
+	overflow: scroll;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 8px;
+	background-color: #ddd;	
+	box-shadow: 2px 2px;
+	border: 1px solid #999;
+}
+form {
 	width: 90%;
 	margin: 0 auto;
 	text-align: center;
 }
-thead {
-	visibility: visible;
-	color: black;
-}
 .label {
 	text-align: right;
+}
+.off {
+	visibility: hidden;
 }
