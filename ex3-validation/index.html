@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercise one - Stripped table</title>
+	<link rel="stylesheet" href="base.css">
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th>table headder</th>
+				<th>table headder</th>
+				<th>table headder</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>table body</td>
+				<td>table body</td>
+				<td>table body</td>
+			</tr>
+			<tr>
+				<td>table body</td>
+				<td>table body</td>
+				<td>table body</td>
+			</tr>
+			<tr>
+				<td>table body</td>
+				<td>table body</td>
+				<td>table body</td>
+			</tr>
+			<tr>
+				<td>table body</td>
+				<td>table body</td>
+				<td>table body</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="2" class="label"><label for="newEvenColor">Change the background color for even rows</label></td>
+				<td>
+					<form id="even" action="javascript:void(0);">
+					    <input type="text" id="newEvenColor" placeholder="Type a new even row color"> <!-- others are password, checkbox, radio, submit -->
+					    <input type="submit" value="Change!">
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="label"><label for="newOddColor">Change the background color for odd rows</label></td>
+				<td>
+					<form id="odd" action="javascript:void(0);">
+					    <input type="text" id="newOddColor" placeholder="Type a new odd row color"> <!-- others are password, checkbox, radio, submit -->
+					    <input type="submit" value="Change!">
+					</form>
+				</td>
+			</tr>
+		</tfoot>
+	</table>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+body {
+	background-color: 030303;
+	color: black;
+}
+table {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+thead {
+}
+.label {
+	text-align: right;
+}
